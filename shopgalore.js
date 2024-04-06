@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(event) {
             event.preventDefault();
             const sectionId = this.getAttribute('href').substring(1);
-            const section = document.getElementById(sectionId);
+            const section = sectionId;
             if (section) {
                 section.scrollIntoView({ behavior: 'smooth' });
             }
