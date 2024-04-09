@@ -1,14 +1,20 @@
-#productbg {
-    background-image: url(src/freepikpics/amazonecho.jpg)!important;
-    background-size: cover!important; 
+.amazon-bg {
+    background-image: url(src/freepikpics/amazonecho.jpg);
+    background-size: cover; 
     background-color: rgba(255,255,255,0.5);
     height: 300px; width:400px;
+}
 
-#productbg {
-        background-image: url(src/freepikpics/kindlewrite.jpg)!important;
-        background-size: cover!important; 
+.kindle-bg {
+        background-image: url(src/freepikpics/kindlewrite.jpg);
+        background-size: cover; 
         background-color: rgba(255,255,255,0.5);
-        height: 350px; width:250px;
-    
+        height: 350px; width:400px;
+}
 
+.fire-tv-bg {
+    background-image: url(src/freepikpics/firetvstick.jpg);
+        background-size: cover; 
+        background-color: rgba(255,255,255,0.5);
+        height: 350px; width:400px;
 }
